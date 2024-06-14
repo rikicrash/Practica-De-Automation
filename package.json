@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "test": "mocha --recursive --timeout 500000 './**/*.spec.js'"
+    "test": "mocha --recursive --timeout 500000 --reporter mochawesome --required mochawesome/register './**/*.spec.js'"
   },
   "dependencies": {
     "mocha": "^10.4.0",
     "selenium-webdriver": "^4.21.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
