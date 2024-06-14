@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "mocha --recursive --timeout 500000 './**/*.spec.js'"
+  },
+  "dependencies": {
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.21.0"
+  }
+}
