@@ -17,5 +17,10 @@ npm install
 Para ejecutar los test debes de ejecutar el siguiente comando en la terminal de Visual Studio Code.
 
 ```bash
-npm run test
+npm test
 ```
+Tomar en cuenta que las pruebas ejecutadas son fallidas ya que validan escenarios los cuales hay defectos.
+El reporte se puede visualizar en la carpeta 
+- 📁 Proyecto
+  - 📁 mochaawesome-report
+    - 📄 mochaawesome.html
